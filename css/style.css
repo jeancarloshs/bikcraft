@@ -36,6 +36,33 @@ p {
   border-color: var(--white-primary);
 }
 
+/* QUANDO DEIXAMOS DUAS CLASSES JUNTAS DESSA FORMA, INDICA QUE NO HTML ESTÁ COM MAIS DE UMA CLASSE, 
+CLASSE E SUB-CLASSE */
+.btn.btn-bg:hover {
+  color: var(--black-primary);
+  border-color: var(--black-primary);
+}
+
+.subtitulo {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--black-primary);
+  margin-bottom: 40px;
+}
+
+.subtitulo::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--black-primary);
+  margin: 10px auto;
+}
+
 /* Header */
 
 .header {
@@ -44,6 +71,7 @@ p {
   width: 100%;
   background: var(--yellow-primary);
   padding: 15px 0;
+  z-index: 10; /* USAMOS z-index:10; PARA DEIXAR O HEADER POR CIMA DE TODO MUNDO, PQ O RESTANTE ESTÁ COM FLUTUAÇÃO */
 }
 
 .header_menu {
@@ -119,4 +147,52 @@ p {
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 0.1em;
+}
+
+/* Produtos */
+
+.produtos {
+  padding: 60px 0;
+}
+
+.produtos_lista li {
+  background: var(--yellow-primary);
+  text-align: center;
+}
+
+.produtos_lista li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 20px;
+}
+
+.produtos_lista li h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--black-primary);
+  margin: 5px auto;
+}
+
+.produtos_lista li p {
+  padding: 10px 20px 20px 20px;
+}
+
+.produtos_icone {
+  background: var(--black-primary);
+  padding: 20px;
+}
+
+.call {
+  padding-top: 40px;
+  text-align: center;
+  clear: both; /* USAMOS clear:both; PORQUE A DIV COM OS PRODUTOS ESTÁ COM FLUTUAÇÃO */
+}
+
+.call p {
+  margin-bottom: 20px;
 }
