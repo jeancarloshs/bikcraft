@@ -381,10 +381,6 @@ CLASSE E SUB-CLASSE */
   padding-right: 40px;
 }
 
-.footer_contato ul {
-  list-style-type: none;
-}
-
 .footer_contato ul li {
   font-size: 14px;
   line-height: 20px;
