@@ -101,6 +101,14 @@ CLASSE E SUB-CLASSE */
   color: var(--white-primary);
 }
 
+.header_menu ul li a.menu_ativo {
+  color: var(--white-primary);
+}
+
+.header_menu ul li a.menu_ativo:hover {
+  color: var(--black-primary);
+}
+
 /* Introdução */
 
 .introducao {
@@ -151,6 +159,51 @@ CLASSE E SUB-CLASSE */
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 0.1em;
+}
+
+/* Introdução Interna */
+
+.introducao-interna {
+  width: 100%;
+  margin-top: 92px;
+  height: 160px;
+  text-align: center;
+  color: var(--white-primary);
+  padding-top: 40px;
+}
+
+.introducao-interna h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.introducao-interna h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--white-primary);
+  margin: 9px auto 9px auto;
+}
+
+.subtitulo-interno {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: var(--black-primary);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subtitulo-interno::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: var(--black-primary);
+  margin: 8px 0;
 }
 
 /* Produtos */
@@ -252,6 +305,11 @@ CLASSE E SUB-CLASSE */
   margin: 0 auto;
 }
 
+.qualidade_lista {
+  /* padding-top: 20px; */
+  overflow: auto; /* clear fix */
+}
+
 .qualidade_lista li {
   text-align: center;
   padding: 0 40px;
@@ -341,8 +399,6 @@ CLASSE E SUB-CLASSE */
 .footer_redes ul li a {
   border: 3px solid var(--yellow-primary);
   display: block;
-  width: 40px;
-  height: 40px;
   padding: 10px;
 }
 
