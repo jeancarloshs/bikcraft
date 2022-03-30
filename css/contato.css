@@ -1,0 +1,93 @@
+.interna_contato {
+  background: url("../img/contato/bg-contato.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/* Orçamento */
+.contato {
+  padding: 40px 0;
+}
+
+.form_contato {
+  padding-right: 60px;
+}
+
+.form_contato label {
+  display: block;
+  margin-top: 5px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.form_contato input {
+  display: block;
+  width: 100%;
+  border: 4px solid var(--yellow-primary);
+  font-size: 14px;
+  padding: 5px 10px;
+  outline: none;
+  font-family: Georgia, "Times New Roman", serif;
+  margin-bottom: 10px;
+}
+
+.form_contato textarea {
+  display: block;
+  width: 100%;
+  height: 120px;
+  border: 4px solid var(--yellow-primary);
+  background: none;
+  font-size: 14px;
+  padding: 5px 10px;
+  outline: none;
+  font-family: Georgia, "Times New Roman", serif;
+  margin-bottom: 20px;
+}
+
+.form_contato button {
+  padding: 10px 40px;
+  background: none;
+}
+
+.contato_dados h3 {
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: var(--yellow-primary);
+  font-weight: bold;
+}
+
+.contato_dados span {
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.contato_dados ul {
+  padding-right: 40px;
+}
+
+.contato_dados ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.contato_dados ul li a {
+  border: 3px solid var(--yellow-primary);
+  display: block;
+  padding: 10px;
+}
+
+.contato_dados ul li a:hover {
+  border: 3px solid var(--black-primary);
+}
+
+/* seleciona o tipo e a posição do elemento */
+.contato_dados h3:nth-of-type(2) {
+  margin: 35px 0 10px 0;
+}
+
+.contato_mapa {
+  margin-bottom: 60px;
+}
