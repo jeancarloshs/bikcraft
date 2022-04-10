@@ -22,6 +22,7 @@
     width: 26px;
     height: 26px;
   }
+
 }
 
 /* Outras telas */
@@ -60,6 +61,10 @@
     .produto_info ul li {
       width: 181px;
       height: 49px;
+    }
+
+    .contato_mapa iframe {
+      width: 748px;
     }
 } /* Final estilo para tablet */
 
@@ -198,5 +203,9 @@
     .form_contato {
       padding-right: 0px;
       margin-bottom: 40px;
+    }
+
+    .contato_mapa iframe {
+      width: 300px;
     }
 }
