@@ -18,12 +18,9 @@
   <meta property="og:image" content="https://github.com/jeancarloshs/bikcraft/img/og-image.png"/>
   <!-- final meta tags seo -->
 
-  <link href="css/normalize.css" rel="stylesheet" />
-  <link href="css/reset.css" rel="stylesheet" />
-  <link href="css/grid.css" rel="stylesheet" />
-  <link href="css/style.css" rel="stylesheet" />
-  <link href="css/contato.css" rel="stylesheet" />
-  <link href="css/responsivo.css" rel="stylesheet" />
+  <!-- inicio estilos css -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- final estilos css -->
 
   <!-- adiciona classe js na tag html, para fazer verificação antes de iniciar o script -->
   <script>document.documentElement.classList.add("js");</script>
@@ -51,6 +48,7 @@
     <div class="container">
       <h1 class="fadeInDown" data-anime="400">Contato</h1>
       <p class="fadeInDown" data-anime="800">Tire as suas duvidas conosco</p>
+    </div>
   </section> <!-- introducao -->
 
   <section class="contato container fadeInDown" data-anime="1200">
@@ -69,7 +67,7 @@
       <input type="text" class="nao-aparece" id="dontChange" name="dontChange" value="http://">
 
       <label for="mensagem">Mensagem</label>
-      <textarea type="text" id="mensagem" name="mensagem" required></textarea>
+      <textarea id="mensagem" name="mensagem" required></textarea>
       <button type="submit" id="enviar" name="enviar" class="btn btn-bg">Enviar</button>
     </form>
     <div class="contato_dados grid-8">
