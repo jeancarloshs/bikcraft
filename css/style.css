@@ -957,6 +957,29 @@ CLASSE E SUB-CLASSE */
   position: absolute;
   height: 0px;
 }
+
+#form-erro h2 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FF2626;
+}
+
+#form-erro p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 0.1em;
+  margin-top: 10px;
+}
+
+#form-erro a {
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  color: var(--yellow-primary);
+}
+
+#voltar {
+  margin-top: 20px;
+}
 /* CSS STYLE FIM */
 
 /* CSS SOBRE INICIO */

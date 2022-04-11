@@ -19,7 +19,7 @@ if (window.SimpleForm) {
   new SimpleForm({
     form: ".formPHP", // seletor do formulário
     button: "#enviar", // seletor do botão
-    erro: "<div id='form-erro'><h2>Erro no envio!</h2><p>Um erro ocorreu, tente para o email contato@bikcraft.com</p></div>", // mensagem de erro
+    erro: "<div id='form-erro'><h2>Erro no envio!</h2><p>Um erro ocorreu, tente para o email <a href='mailto:contato@bikcraft.com' target='_blank'>contato@bikcraft.com</a></p><button type='submit' id='voltar' name='voltar' class='btn btn-bg'>Voltar</button></div>", // mensagem de erro
     sucesso: "<div id='form-sucesso'><h2>Formulário enviado com sucesso</h2><p>Em breve eu entro em contato com você.</p></div>", // mensagem de sucesso
   });
 }
